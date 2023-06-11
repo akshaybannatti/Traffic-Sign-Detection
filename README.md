@@ -1,6 +1,6 @@
 # Traffic signs detection and classification in real time
 
-### A new version using SSD will be released this summer for anyone need higher accuracy detection method. Stay tuned for new update!
+### A new version using SSD will be released, for anyone whos needs a higher accuracy detection method.
 
 ### 1. Description ###
 This project is a traffic signs detection and classification system on videos using OpenCV.
