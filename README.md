@@ -16,7 +16,8 @@ Detection strategy:
 In the next phase - classification phase, a list of images are created by cropping from the original frame based on candidates' coordinate. A pre-trained SVM model will classify these images to find out which type of traffic sign they are.
 
 Currently supported traffic signs (*The name of each sign's file is corresponding to their class in SVM*):
-![all-signs](https://github.com/akshaybannatti/Traffic-Sign-Detection/assets/50884750/187bf419-def7-45c6-aaff-d6ab0b216044)
+
+![all-signs](https://github.com/akshaybannatti/Traffic-Sign-Detection/assets/50884750/0c349cad-65cc-4f07-9986-972ef50aa28b)
 
 
 
