@@ -27,7 +27,7 @@ Note:
 
 The SVM Model is trained each time the ```main.py``` called, before the detection phase but I still save the model in [data_svm.dat](data_svm.dat) to implement the model-reload function in the future to avoid retraining phase.
 
-If a traffic sign is detected, it will be tracked until it disappears or there is another bigger sign in the frame. The tracking method is [Dense Optical Flow](https://docs.opencv.org/trunk/d7/d8b/tutorial_py_lucas_kanade.html).
+If a traffic sign is detected, it will be tracked until it disappears or there is another bigger sign in the frame. The tracking method is Dense Optical Flow (https://docs.opencv.org/trunk/d7/d8b/tutorial_py_lucas_kanade.html).
 ### 2. Prerequisites:
 - Python 3.5
 - [OpenCV3](https://opencv.org/)
@@ -41,7 +41,7 @@ If a traffic sign is detected, it will be tracked until it disappears or there i
 
 Other files:
 - [data_svm.dat](data_svm.dat) : Saved SVM model after training.
-- [README.md](README.md) : This file, obiviously :)
+- [README.md](README.md)
 
 ##### b. [Dataset](dataset)
 The [Dataset](dataset) folder contains images for training SVM models. There are 12 folders contains cropped images of traffic signs. Each folder is named as the class of the traffic signs it contains. The special [0](dataset/0) folder contains non-traffic-sign cropped images which can be recognized as traffic signs in the detection phase. 
@@ -85,5 +85,5 @@ optional arguments:
 ### 8. License
 
 [MIT License](LICENSE)
-© 2018 Hoàng Lê Hải Thanh (Thanh Hoang Le Hai) aka GhostBB
+
 
