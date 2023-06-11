@@ -46,7 +46,8 @@ Other files:
 
 ##### b. [Dataset](dataset)
 The [Dataset](dataset) folder contains images for training SVM models. There are 12 folders contains cropped images of traffic signs. Each folder is named as the class of the traffic signs it contains. The special [0](dataset/0) folder contains non-traffic-sign cropped images which can be recognized as traffic signs in the detection phase. 
-![0](https://github.com/akshaybannatti/Traffic-Sign-Detection/assets/50884750/a1470e8a-af65-43bd-9006-1064109361a4)
+
+![0](https://github.com/akshaybannatti/Traffic-Sign-Detection/assets/50884750/1fced0fa-87a7-4879-b6b1-35cf13191dde)
 
 The dataset is created by applying the detection phase on many videos with various parameters to mark all traffic signs and then manually separating them into their right classes.
 
