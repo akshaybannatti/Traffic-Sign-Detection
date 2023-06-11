@@ -71,7 +71,7 @@ optional arguments:
                         Similarly to a circle
 ```
 ### 5. Result
-![demo](https://github.com/akshaybannatti/Traffic-Sign-Detection/assets/50884750/574faa5a-f73c-4c93-9f57-da55b812ea26)
+![demo](https://github.com/akshaybannatti/Traffic-Sign-Detection/assets/50884750/9a3aea53-b609-4528-b660-a25f652bc477)
 
 ### 6. Disadvantages
 - Static image processing, this means parameters must be updated for each video with different lighting conditions
