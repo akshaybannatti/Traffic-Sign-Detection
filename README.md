@@ -69,7 +69,8 @@ optional arguments:
                         Similarly to a circle
 ```
 ### 5. Result
-![](images/demo.gif)
+![demo](https://github.com/akshaybannatti/Traffic-Sign-Detection/assets/50884750/574faa5a-f73c-4c93-9f57-da55b812ea26)
+
 ### 6. Disadvantages
 - Static image processing, this means parameters must be updated for each video with different lighting conditions
 - The accuracy of the detection phase is not high, still, miss signs or detect wrong areas.
