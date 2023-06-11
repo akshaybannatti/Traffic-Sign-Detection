@@ -16,6 +16,10 @@ Detection strategy:
 In the next phase - classification phase, a list of images are created by cropping from the original frame based on candidates' coordinate. A pre-trained SVM model will classify these images to find out which type of traffic sign they are.
 
 Currently supported traffic signs (*The name of each sign's file is corresponding to their class in SVM*):
+![all-signs](https://github.com/akshaybannatti/Traffic-Sign-Detection/assets/50884750/187bf419-def7-45c6-aaff-d6ab0b216044)
+
+
+
  ![](/images/all-signs.png)
 Note:
 - *All signs which belong to class 8 and above are marked as **OTHERS** because a competition requires this. There is also a class 0 which are marked as non-traffic-sign*
@@ -41,7 +45,7 @@ Other files:
 
 ##### b. [Dataset](dataset)
 The [Dataset](dataset) folder contains images for training SVM models. There are 12 folders contains cropped images of traffic signs. Each folder is named as the class of the traffic signs it contains. The special [0](dataset/0) folder contains non-traffic-sign cropped images which can be recognized as traffic signs in the detection phase. 
-![Wrong detected traffic signs](images/0.png)
+![0](https://github.com/akshaybannatti/Traffic-Sign-Detection/assets/50884750/a1470e8a-af65-43bd-9006-1064109361a4)
 
 The dataset is created by applying the detection phase on many videos with various parameters to mark all traffic signs and then manually separating them into their right classes.
 
