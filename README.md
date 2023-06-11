@@ -83,6 +83,7 @@ optional arguments:
 - No need to retrain the model when running the program
 - Make a bigger dataset
 ### 8. License
-MIT Licence
+MIT License
 
+Copyright (c) 2023 akshaybannatti
 
